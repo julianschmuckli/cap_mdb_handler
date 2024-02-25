@@ -1,2 +1,2 @@
-# cap_mdb_handler
-An SAP CAP extension to connect to any MongoDB instance.
+# SAP Cloud Application Programming Model (CAP) - MongoDB Handler
+An unofficial SAP CAP extension to connect to any MongoDB instance.

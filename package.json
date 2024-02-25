@@ -1,0 +1,32 @@
+{
+  "name": "cap_mdb_handler",
+  "version": "1.0.0",
+  "description": "A SAP CAP handler to connect to any MongoDB instance as database layer.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "build-and-publish": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianschmuckli/cap_mdb_handler.git"
+  },
+  "keywords": [
+    "sap",
+    "cap",
+    "mongo",
+    "mongodb",
+    "cloud-application-programming-model"
+  ],
+  "author": "Julian Schmuckli",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/julianschmuckli/cap_mdb_handler/issues"
+  },
+  "homepage": "https://github.com/julianschmuckli/cap_mdb_handler#readme",
+  "dependencies": {
+    "@sap/cds": "^7.6.4",
+    "mongodb": "^6.3.0"
+  }
+}
