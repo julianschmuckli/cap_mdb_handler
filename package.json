@@ -1,8 +1,9 @@
 {
   "name": "cap_mdb_handler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A SAP CAP handler to connect to any MongoDB instance as database layer.",
   "main": "index.js",
+  "types": "index.d.ts",
   "private": false,
   "scripts": {
     "build": "tsc",
@@ -27,6 +28,11 @@
   "homepage": "https://github.com/julianschmuckli/cap_mdb_handler#readme",
   "dependencies": {
     "@sap/cds": "^7.6.4",
+    "axios": "^1.6.7",
+    "chai": "^5.1.0",
     "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20"
   }
 }
