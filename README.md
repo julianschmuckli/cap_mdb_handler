@@ -1,6 +1,24 @@
 # SAP Cloud Application Programming Model (CAP) - MongoDB Handler
 An unofficial SAP CAP extension to connect to any MongoDB instance.
 
+[![npm version](https://badge.fury.io/js/cap_mdb_handler.svg)](https://badge.fury.io/js/cap_mdb_handler)
+
+## Introduction
+
+This project lets you connect to a MongoDB instance from a CAP service. It provides a simple way to read, create, update and delete documents in a MongoDB collection, which represents a CAP entity. The flexible nature of MongoDB allows you to store any kind of data, which can be accessed and manipulated using the CAP service.
+
+![Architecture](./docs/architecture.png)
+
+All logos are trademarks of their respective owners.
+
+## Prerequisites
+- Node.js
+- MongoDB instance (Get one for free at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+- SAP Cloud Application Programming Model (CAP) (Get started [here](https://cap.cloud.sap/docs/get-started/)
+- SAP Business Application Studio (BAS) or 
+    - Visual Studio Code (VSCode) with the SAP Business Application Studio Extension Pack installed
+
+
 ## Installation
 ```bash
 npm i cap_mdb_handler
