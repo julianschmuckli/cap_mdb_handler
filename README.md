@@ -25,6 +25,8 @@ npm i cap_mdb_handler
 ```
 
 ## Usage
+To use the library now, we need to add the following code to the `srv/service.ts` file of your CAP project.
+
 ```typescript
 import type { Request } from "@sap/cds/apis/services"
 import cds = require('@sap/cds');
@@ -58,7 +60,7 @@ module.exports = cds.service.impl(async function () {
 });
 ```
 
-## Configuration
+## Additional Configuration
 The MDBHandler requires the following environment variables to be set:
 - `MONGO_URL`: The URL of the MongoDB instance (beginning with `mongodb://` or `mongodb+srv://`)
 - `MONGO_DB`: The name of the database to connect to
