@@ -1,6 +1,6 @@
 {
   "name": "cap_mdb_handler",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A SAP CAP handler to connect to any MongoDB instance as database layer.",
   "main": "index.js",
   "types": "index.d.ts",

@@ -13,8 +13,8 @@ All logos are trademarks of their respective owners.
 
 ## Prerequisites
 - Node.js
-- MongoDB instance (Get one for free at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
-- SAP Cloud Application Programming Model (CAP) (Get started [here](https://cap.cloud.sap/docs/get-started/)
+- MongoDB instance
+- SAP Cloud Application Programming Model (CAP)
 - SAP Business Application Studio (BAS) or 
     - Visual Studio Code (VSCode) with the SAP Business Application Studio Extension Pack installed
 
